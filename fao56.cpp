@@ -76,11 +76,28 @@ Daily::Daily(void){
 Daily::~Daily(void){
 }
 
-double CWSI(double Tdry, double Twet, double Tcan){
-
-  return (Tcan-Twet)/(Tdry-Twet)
+class Canopy{
+public:
+private:
+};
+double Canopy::CWSI(void){
+  return (Tcan-Twet)/(Tdry-Twet);
 }
 
+double Canopy::Tdry(){
+}
+
+double Canopy::Twet(){
+}
+
+double Canopy::Tcan(){
+}
+
+double Canopy::fdhc(){
+}
+
+double Canopy::LAI(){
+}
 
 int main(void){
 
